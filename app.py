@@ -121,9 +121,9 @@ def main():
 
     # Select cryptocurrency
     coin_id = st.sidebar.selectbox("Select cryptocurrency", ["BTC", "ETH", "BNB", "SOL", "XRP", "DOGE", "SHIB", "ADA", "MATIC", "AVAX", "DOT", "LINK",
-                                                             "TRX", "BCH", "NEAR", "MATIC", "UNI", "LTC", "PEPE", "ICP", "LEO", "RNDR", "HBAR", "ATOM", 
+                                                             "TRX", "BCH", "NEAR", "MATIC", "UNI", "LTC", "ICP", "LEO", "RNDR", "HBAR", "ATOM", 
                                                              "WIF", "ARB", "XLM", "CRO", "XMR", "FLOKI", "OKB", "VET", "MKR", "INJ", "FTM", "BONK", 
-                                                             "ONDO", "ALGO", "ENA", "GALA"])
+                                                             "ONDO", "ALGO", "GALA"])
 
     # Select start and end dates
     start_date = st.sidebar.date_input("Start Date", pd.to_datetime("2022-01-01"))
