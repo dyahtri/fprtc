@@ -126,7 +126,7 @@ def main():
                                                              "ONDO", "ALGO", "GALA"])
 
     # Select start and end dates
-    start_date = st.sidebar.date_input("Start Date", pd.to_datetime("2022-01-01"))
+    start_date = st.sidebar.date_input("Start Date", pd.to_datetime("2024-01-01"))
     end_date = st.sidebar.date_input("End Date", pd.to_datetime("today"))
 
     # Get cryptocurrency data
